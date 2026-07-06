@@ -1,0 +1,13 @@
+02:40:03.866 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:14)oggger - ******** Starting TC001_AccountRegistrationTest *********
+02:40:04.305 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:19)oggger - ******** Clicked on myaccount tab*********
+02:40:05.521 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:21)oggger - ******** Clicked on registration link *********
+02:40:05.531 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:25)oggger - ******** Providing cutomer details *********
+02:40:06.818 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:32)oggger - ******** Validating expected msg *********
+02:40:08.286 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:41)oggger - ******** Finished TC001_AccountRegistrationTest *********
+20:14:25.681 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:14)oggger - ******** Starting TC001_AccountRegistrationTest *********
+20:14:26.123 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:19)oggger - ******** Clicked on myaccount tab*********
+20:14:27.410 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:21)oggger - ******** Clicked on registration link *********
+20:14:27.421 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:25)oggger - ******** Providing cutomer details *********
+20:14:28.592 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:32)oggger - ******** Validating expected msg *********
+20:14:30.528 [main] ERROR Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:36)oggger - Test Failed
+20:14:30.533 [main] INFO  Testcase.TC_001AccountRegistrationTest.verfiy_Account(TC_001AccountRegistrationTest.java:49)oggger - ******** Finished TC001_AccountRegistrationTest *********
