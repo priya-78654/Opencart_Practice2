@@ -20,6 +20,7 @@ public class TC004_EditAccountPage extends BaseClass{
 		eap.editFirstNameAccount("Demo");
 		eap.editLastNameAccount("testing");
 		eap.editContinueButton();
+		eap.clickBackBtn();
 		
 		
 	}

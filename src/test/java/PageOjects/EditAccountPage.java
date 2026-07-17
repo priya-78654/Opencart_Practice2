@@ -23,6 +23,8 @@ public class EditAccountPage extends BasePage {
 	WebElement editContinuBtn;
 	@FindBy(xpath="//div[contains(@class,'alert-success')]")
 	WebElement editsuccessMessage;
+	@FindBy(xpath="//a[normalize-space()='Back']")
+	WebElement backBtn;
 	
 	
 	//Action Methods
@@ -38,7 +40,9 @@ public class EditAccountPage extends BasePage {
 	public void editContinueButton() {
 		editContinuBtn.click();
 	}
-	
+	public void clickBackBtn() {
+		backBtn.click();
+	}
 	public boolean isEditAccountPageExist() {
 		try {
 			return msgEditPageHeading.isDisplayed();
