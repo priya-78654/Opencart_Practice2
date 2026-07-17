@@ -16,6 +16,16 @@ public class MyAccountPage extends BasePage{
 	WebElement msgHeading;
 	@FindBy(xpath="//span[normalize-space()='My Account']")
 	WebElement myAccountDDT;
+	@FindBy(xpath="//a[normalize-space()='Edit your account information']")
+	WebElement editAccountInfo;
+	@FindBy(xpath="//a[normalize-space()='Change your password']")
+	WebElement changePassword;
+	@FindBy(xpath="//a[normalize-space()='Stored payment methods']")
+	WebElement storedPayment;
+	@FindBy(xpath="//a[normalize-space()='Modify your address book entries']")
+	WebElement modifyAddressBook;
+	@FindBy(xpath="//a[normalize-space()='Modify your wish list']")
+	WebElement wishList;
 	@FindBy(xpath="//a[normalize-space()='Logout']")
 	WebElement logoutLinkDDT;
 	
@@ -32,7 +42,22 @@ public class MyAccountPage extends BasePage{
 		logoutLinkDDT.click();
     }
 
-    
+	 public void clickEditAccount() {
+	    	editAccountInfo.click();
+	    	
+	    }
+	    public void clickChangePassword() {
+	    	changePassword.click();
+	    }
+	    public void clickStoredPayment() {
+	    	storedPayment.click();
+	    }
+	    public void clickModifyAddressBook() {
+	    	modifyAddressBook.click();
+	    }
+	    public void clickWishList() {
+	    	wishList.click();
+	    }
 	
 	
 }

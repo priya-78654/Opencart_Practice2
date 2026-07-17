@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import PageOjects.AccountRegsitration;
 import PageOjects.HomePage;
+import PageOjects.MyAccountPage;
 
 public class TC_001AccountRegistrationTest extends BaseClass {
 	
@@ -36,8 +37,12 @@ public class TC_001AccountRegistrationTest extends BaseClass {
 			} else { 
 				logger.error("******** Test Failed ********"); 
 				Assert.fail(); }
+
 		} 
-		catch (Exception e) { logger.error("Exception occurred during test execution", e); Assert.fail(); }
+		catch (Exception e) { logger.error("Exception occurred during test execution", e); 
+		Assert.fail(); 
+		
+		}
 		logger.info("******** Finished TC001_AccountRegistrationTest *********");
 	}
 	

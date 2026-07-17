@@ -16,6 +16,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import PageOjects.HomePage;
+import PageOjects.LoginPage;
+import PageOjects.MyAccountPage;
+
 public class BaseClass {
 public Logger logger;
 public Properties p;
@@ -39,11 +43,38 @@ public Properties p;
 	default : System.out.println("Invalid browser name.."); return;
 	}
 	
+	
+	
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	driver.get(p.getProperty("appURL")); //reading url from properties file 
 	driver.manage().window().maximize();
+	
+	
+	
 }
+
+	public void login() {
+
+	    logger.info("******** Logging into application ********");
+
+	    HomePage hp = new HomePage(driver);
+	    hp.myAccount();
+	    hp.LoginAccount();
+
+	    LoginPage lp = new LoginPage(driver);
+	    lp.enterEmail(p.getProperty("email"));
+	    lp.enterPassword(p.getProperty("password"));
+	    lp.clickBtn();
+
+	    MyAccountPage mp = new MyAccountPage(driver);
+
+	    if (!mp.isMyAccountPageExists()) {
+	        throw new RuntimeException("Login failed - My Account page was not displayed.");
+	    }
+
+	    logger.info("******** Login Successful ********");
+	}
 	
 	@AfterClass
 	public void teardown() {

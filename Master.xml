@@ -5,9 +5,10 @@
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Testcase.TC_001AccountRegistrationTest"/>
-      <class name="Testcase.LoginTestCase"/>
-       <class name="Testcase.LoginDDT"/>
+  <!--    <class name="Testcase.TC_001AccountRegistrationTest"/>-->
+<!--      <class name="Testcase.LoginTestCase"/>-->
+   <!--    <class name="Testcase.LoginDDT"/>-->
+        <class name="Testcase.TC004_EditAccountPage"/>
       
     </classes>
   </test> <!-- Test -->

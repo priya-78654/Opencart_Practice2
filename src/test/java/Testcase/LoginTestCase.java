@@ -1,16 +1,12 @@
 package Testcase;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import PageOjects.HomePage;
-import PageOjects.LoginPage;
-import PageOjects.MyAccountPage;
 
 public class LoginTestCase extends BaseClass{
  @Test
 	public void loginDetail() {
-	 logger.info("******Starting LoginTestCase*******");
+	 login(); //calling Resuable method
+	/* logger.info("******Starting LoginTestCase*******");
 	 try {
 		HomePage hp = new HomePage(driver);
 		hp.myAccount();
@@ -29,6 +25,7 @@ public class LoginTestCase extends BaseClass{
 		 Assert.fail();
 	 }
 		logger.info("***********Finished LoginTestCase");
-		
+	*/
+	 
 	}
 }
