@@ -33,7 +33,8 @@ public class TC_001AccountRegistrationTest extends BaseClass {
 		logger.info("******** Validating expected msg *********");
 		String confirmMsg = ar.getConfirmationMsg(); 
 		if (confirmMsg.equals("Your Account Has Been Created!")) {
-			logger.info("******** Test Passed ********"); Assert.assertTrue(true); 
+			logger.info("******** Test Passed ********"); 
+			Assert.assertTrue(true); 
 			} else { 
 				logger.error("******** Test Failed ********"); 
 				Assert.fail(); }

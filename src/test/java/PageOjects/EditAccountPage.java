@@ -19,12 +19,9 @@ public class EditAccountPage extends BasePage {
 	WebElement editFirstName;
 	@FindBy(xpath="//input[@id='input-lastname']")
 	WebElement editlastName;
-	@FindBy(xpath="//button[normalize-space()='Continue']")
-	WebElement editContinuBtn;
 	@FindBy(xpath="//div[contains(@class,'alert-success')]")
 	WebElement editsuccessMessage;
-	@FindBy(xpath="//a[normalize-space()='Back']")
-	WebElement backBtn;
+
 	
 	
 	//Action Methods
@@ -37,17 +34,13 @@ public class EditAccountPage extends BasePage {
 	    editlastName.clear();
 	    editlastName.sendKeys(editlastname);
 	}
-	public void editContinueButton() {
-		editContinuBtn.click();
-	}
-	public void clickBackBtn() {
-		backBtn.click();
-	}
-	public boolean isEditAccountPageExist() {
+	
+
+	public String isEditAccountPageExist() {
 		try {
-			return msgEditPageHeading.isDisplayed();
+			return (msgEditPageHeading.getText());
 		}catch(Exception e) {
-			return false;
+			return (e.getMessage());
 		}
 	}
 	

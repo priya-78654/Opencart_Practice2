@@ -9,7 +9,6 @@
         <methods>
           <include name="verify_editAccountPage"/>
           <include name="setup"/>
-          <include name="login"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- Testcase.TC004_EditAccountPage -->
