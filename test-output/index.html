@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcase.TC004_EditAccountPage" class="method navigator-link" hash-for-method="verify_editAccountPage">verify_editAccountPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcase.TC006_LoginWithNewPassword" class="method navigator-link" hash-for-method="verify_loginWithNewPassword">verify_loginWithNewPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -121,18 +121,19 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Testcase.TC004_EditAccountPage</span>
+              <span class="class-name">Testcase.TC006_LoginWithNewPassword</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_editAccountPage">
-                  </a> <!-- verify_editAccountPage -->
-                  <span class="method-name">verify_editAccountPage</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at Testcase.TC004_EditAccountPage.verify_editAccountPage(TC004_EditAccountPage.java:44)
+                  <a name="verify_loginWithNewPassword">
+                  </a> <!-- verify_loginWithNewPassword -->
+                  <span class="method-name">verify_loginWithNewPassword</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Login failed - My Account page was not displayed.
+	at Testcase.BaseClass.login(BaseClass.java:73)
+	at Testcase.TC006_LoginWithNewPassword.verify_loginWithNewPassword(TC006_LoginWithNewPassword.java:14)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -152,7 +153,7 @@
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Testcase.TC004_EditAccountPage&quot;/&gt;
+      &lt;class name=&quot;Testcase.TC006_LoginWithNewPassword&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -194,14 +195,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_editAccountPage')
-data.setCell(0, 2, 'Testcase.TC004_EditAccountPage')
-data.setCell(0, 3, 24773);
+data.setCell(0, 1, 'verify_loginWithNewPassword')
+data.setCell(0, 2, 'Testcase.TC006_LoginWithNewPassword')
+data.setCell(0, 3, 22050);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,7 +228,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Testcase.TC004_EditAccountPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Testcase.TC006_LoginWithNewPassword</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
@@ -235,12 +236,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verify_editAccountPage</span>
-                <span class="method-start">4230 ms</span>
+                <span class="method-name">verify_loginWithNewPassword</span>
+                <span class="method-start">5188 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">29038 ms</span>
+                <span class="method-start">27253 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

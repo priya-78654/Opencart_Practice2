@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Testcase.TC004_EditAccountPage">
+      <class name="Testcase.TC006_LoginWithNewPassword">
         <methods>
-          <include name="verify_editAccountPage"/>
           <include name="setup"/>
+          <include name="verify_loginWithNewPassword"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Testcase.TC004_EditAccountPage -->
+      </class> <!-- Testcase.TC006_LoginWithNewPassword -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

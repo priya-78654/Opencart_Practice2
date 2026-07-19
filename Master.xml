@@ -8,9 +8,9 @@
   <!--    <class name="Testcase.TC_001AccountRegistrationTest"/>-->
 <!--      <class name="Testcase.LoginTestCase"/>-->
    <!--    <class name="Testcase.LoginDDT"/>-->
-      <class name="Testcase.TC004_EditAccountPage"/>
+     <!-- <class name="Testcase.TC004_EditAccountPage"/>-->
        <!-- <class name="Testcase.TC005_ChangePassword"/>-->
-      
+       <class name="Testcase.TC006_LoginWithNewPassword"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

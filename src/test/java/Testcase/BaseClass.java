@@ -75,6 +75,9 @@ public Properties p;
 
 	    logger.info("******** Login Successful ********");
 	}
+	public void login(String email, String password) {
+		login(p.getProperty("email"), "test@12345");
+	}
 	
 	@AfterClass
 	public void teardown() {
