@@ -35,4 +35,5 @@ public class HomePage extends BasePage{
 	    myAccount.click();
 	    logoutLink.click();
 	}
+	
 }

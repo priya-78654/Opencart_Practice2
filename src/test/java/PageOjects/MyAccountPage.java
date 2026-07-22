@@ -28,7 +28,8 @@ public class MyAccountPage extends BasePage{
 	WebElement wishList;
 	@FindBy(xpath="//a[normalize-space()='Logout']")
 	WebElement logoutLinkDDT;
-	
+	@FindBy(xpath="//a[normalize-space()='Subscribe / unsubscribe to newsletter']")
+	WebElement subscribeBtn;
 	public boolean isMyAccountPageExists() {
 		try {
 			return (msgHeading.isDisplayed());
@@ -58,6 +59,8 @@ public class MyAccountPage extends BasePage{
 	    public void clickWishList() {
 	    	wishList.click();
 	    }
-	
+		public void clickSubscribe() {
+			subscribeBtn.click();
+		}
 	
 }

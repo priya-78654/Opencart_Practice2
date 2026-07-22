@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-22T01:57:27 IST" name="Suite" finished-at="2026-07-22T01:57:41 IST" duration-ms="14090">
+  <suite started-at="2026-07-22T21:03:59 IST" name="Suite" finished-at="2026-07-22T21:04:10 IST" duration-ms="11168">
     <groups>
     </groups>
-    <test started-at="2026-07-22T01:57:27 IST" name="Test" finished-at="2026-07-22T01:57:41 IST" duration-ms="14090">
-      <class name="Testcase.TC007_Addressbook">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcase.TC007_Addressbook@3a4621bd]" started-at="2026-07-22T01:57:27 IST" name="setup" finished-at="2026-07-22T01:57:33 IST" duration-ms="5311" status="PASS">
+    <test started-at="2026-07-22T21:03:59 IST" name="Test" finished-at="2026-07-22T21:04:10 IST" duration-ms="11168">
+      <class name="Testcase.TC009_LogoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcase.TC009_LogoutTest@3a4621bd]" started-at="2026-07-22T21:03:59 IST" name="setup" finished-at="2026-07-22T21:04:05 IST" duration-ms="6318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Addressbook()[pri:0, instance:Testcase.TC007_Addressbook@3a4621bd]" started-at="2026-07-22T01:57:33 IST" name="verify_Addressbook" finished-at="2026-07-22T01:57:41 IST" duration-ms="8653" status="PASS">
+        <test-method signature="verify_logout()[pri:0, instance:Testcase.TC009_LogoutTest@3a4621bd]" started-at="2026-07-22T21:04:05 IST" name="verify_logout" finished-at="2026-07-22T21:04:10 IST" duration-ms="4745" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Addressbook -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.TC007_Addressbook@3a4621bd]" started-at="2026-07-22T01:57:41 IST" name="teardown" finished-at="2026-07-22T01:57:41 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- verify_logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.TC009_LogoutTest@3a4621bd]" started-at="2026-07-22T21:04:10 IST" name="teardown" finished-at="2026-07-22T21:04:10 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Testcase.TC007_Addressbook -->
+      </class> <!-- Testcase.TC009_LogoutTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

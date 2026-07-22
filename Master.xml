@@ -11,7 +11,9 @@
      <!-- <class name="Testcase.TC004_EditAccountPage"/>-->
        <!-- <class name="Testcase.TC005_ChangePassword"/>-->
       <!-- <class name="Testcase.TC006_LoginWithNewPassword"/>-->
-      <class name="Testcase.TC007_Addressbook"/>
+      <!--<class name="Testcase.TC007_Addressbook"/>-->
+       <!-- <class name="Testcase.TC008_NewsLetterTest"/>-->
+         <class name="Testcase.TC009_LogoutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

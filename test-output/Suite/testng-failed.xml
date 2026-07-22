@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Testcase.TC007_Addressbook">
+      <class name="Testcase.TC009_LogoutTest">
         <methods>
+          <include name="verify_logout"/>
           <include name="setup"/>
-          <include name="verify_Addressbook"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Testcase.TC007_Addressbook -->
+      </class> <!-- Testcase.TC009_LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
